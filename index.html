@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h3>Bài 1: Viết chương trình nhập điểm của một sinh viên cho các môn: Vật lý, Hóa học, và Sinh
+        học. Sau đó hiển thị điểm trung bình và tổng của những điểm này</h3>
+    <script>
+        let diemvatly = +prompt("nhap diem vat ly");
+        let diemhoahoc = +prompt("nhap diem hoa hoa");
+        let diemsinhhoc = +prompt("nhap diem sinh hoc");
+        let total = (+diemvatly + diemhoahoc + diemsinhhoc) / 3;
+        document.write("diem trung binh 3 mon: ", total)
+    </script>
+
+
+
+    <h3> Bài 2: Viết chương trình nhập một giá trị là độ 0C(Celsius) và chuyển nó sang độ 0F
+        (Fahrenheit). [Hướng dẫn: C / 5 = (F - 32) / 9]</h3>
+    <script>
+        let doC = +prompt("nhap so")
+        console.log(doC);
+        let doF = (doC * 9 / 5) + 32;
+        console.log(doF);
+        document.write("bhbhb:", " ", doF, " ", "do F")
+    </script>
+
+
+    <h3>Bài 3: Viết chương trình tính diện tích hình tròn</h3>
+    cong thuc tinh dien tich hinh tron S= R2 * 3.14
+    <script>
+        const PI = 3.14;
+        let banKinh = +prompt("nhap so");
+        console.log(banKinh);
+        let dienTich = (banKinh * banKinh) * PI;
+        console.log(dienTich);
+        document.write(dienTich);
+    </script>
+
+
+    <h3>Bài 4: Viết chương trình chu vi hình tròn</h3>
+    C = D x π
+    <script>
+        const PI = 3.14;
+        let duongkinh = +prompt("nhap so");
+        console.log(duongkinh);
+        let chuvi = (duongkinh * PI)
+        console.log(chuvi);
+        document.write(chuvi);
+    </script>
+</body>
+
+</html>
